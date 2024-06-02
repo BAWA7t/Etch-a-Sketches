@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    border: 1px solid #000;
+    
+}
+
+#container div {
+    box-sizing: border-box;
+    border: 1px dotted #ccc;
+    width: calc(960px / 16); /* Adjust this based on the grid size */
+    height: calc(960px / 16); /* Adjust this based on the grid size */
+    background-color: black;
+    border-radius: 20%;
+}
+
+#container div:hover {
+    background-color: whitesmoke;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blue;
+    
+}
